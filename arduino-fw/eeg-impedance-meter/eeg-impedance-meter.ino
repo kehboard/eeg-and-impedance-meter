@@ -31,10 +31,11 @@ void setup(void)
         }
 
   // Perform calibration sweep
-  if (AD5933::calibrate(gain, phase, REF_RESIST, NUM_INCR+1))
+  AD5933::calibrate(gain, phase, REF_RESIST, NUM_INCR+1);
+  /*
     //Serial.println("Calibrated!");
   else
-    //Serial.println("Calibration failed...");
+    //Serial.println("Calibration failed...");*/
 }
 
 void loop(void)
