@@ -43,13 +43,13 @@ void loop(void)
 {
   // Easy to use method for frequency sweep
   
-  start = millis();
+  //start = millis();
   Serial.print(frequencySweepEasy());
   Serial.print(" ");
-  Serial.print(analogRead(A0));
-  Serial.print(" ");
-  end = millis();
-  Serial.println(1.0/(end-start));
+  Serial.println(analogRead(A0));
+  //Serial.print(" ");
+  //end = millis();
+  //Serial.println(1.0/(end-start));
   // Delay
   //delay(1);
 

@@ -1,4 +1,4 @@
-# AD5933 Arduino Library
+# AD5933 Arduino Library by [mjmeli](https://github.com/mjmeli/arduino-ad5933)
 
 This is a simple library for using the AD5933 impedance convert system with an Arduino compatible device.
 
