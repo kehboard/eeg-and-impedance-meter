@@ -42,7 +42,7 @@ void loop(void)
 {
   Serial.print(frequencySweepEasy());
   Serial.print(" ");
-  Serial.println(analogRead(A0));
+  Serial.println(float(analogRead(A0)));
 }
 
 // Easy way to do a frequency sweep. Does an entire frequency sweep at once and
